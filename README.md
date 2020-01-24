@@ -1,8 +1,8 @@
 # PizzaCalc
 
-Problem Specification:
+### Problem Specification:
 Write a program called PizzaCalc to identify the most cost-effective pizza one can order
-1. The tool will take a file as an input (eg., “./PizzaCalc pizzainfo.txt”). The format of this file is as
+The tool will take a file as an input (eg., “./PizzaCalc pizzainfo.txt”). The format of this file is as
 follows. The file is a series of pizza stats, where each entry is 3 lines long. The first line is a name to
 identify the pizza (a string with no spaces), the second line is the diameter of the pizza in inches (a float),
 and the third line is the cost of the pizza in dollars (another float). After the last pizza in the list, the last
@@ -37,7 +37,8 @@ program should print the following and exit:
 
 This program only optimizes single pizza prices, but of course most pizza deals involve getting multiple pizzas;
 we’ll ignore this fact. We also are ignoring toppings, pizza thickness, quality, etc. You are welcome to enhance your
-pizza calculator further outside of class.
+pizza calculator further outside of class. 
+
 Files of the wrong format will not be fed to your program. In all cases, your program should exit with
 status 0 (i.e., main should return 0).
 
